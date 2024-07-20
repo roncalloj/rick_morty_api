@@ -1,0 +1,101 @@
+.page {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	max-width: 900px;
+	margin: auto;
+}
+
+header {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 100%;
+}
+
+header h1 {
+	color: black;
+}
+
+main {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+form {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+
+form input {
+	flex: 1;
+	border-radius: 16px;
+	border-color: rgb(184, 184, 184);
+	color: rgb(168, 167, 167);
+	background-color: rgb(243, 243, 243, 100);
+}
+
+.gridCards {
+	list-style: none;
+	margin: 3rem 0 0 0;
+	padding: 0;
+
+	display: grid;
+	width: 100%;
+	grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+	gap: 20px;
+}
+
+li {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(253, 253, 253);
+	border-radius: 15px;
+	padding: 7px;
+}
+
+li img {
+	border-radius: 10px;
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+}
+
+section {
+	width: 100%;
+}
+
+.cardRow {
+	display: flex;
+}
+
+.label {
+	color: rgb(168, 167, 167);
+	margin: 0;
+	font-size: 13px;
+	max-width: min-content;
+	margin-right: 15px;
+}
+
+.cardRow span {
+	color: black;
+	font-weight: 500;
+	font-size: 13px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.error {
+	color: crimson;
+	display: flex;
+	justify-content: center;
+	margin: 0;
+}
