@@ -1,8 +1,5 @@
-# React + Vite
+# Prueba tecnica completa
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este proyecto se realiza como parte de una prueba tecnica de frontend developer, 
+la cual consiste en la elaboración de cards que presenten información puntual de personajes
+consultados en una API del programa Rick and Morty. La tecnología utilizada fue React.JS
